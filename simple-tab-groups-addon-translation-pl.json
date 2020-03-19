@@ -844,11 +844,11 @@
         "description": "logging description"
     },
     "archiveGroup": {
-        "message": "Archiwizuj",
+        "message": "Archiwizuj grupę",
         "description": "Archive"
     },
     "unArchiveGroup": {
-        "message": "Przywróć z archiwum",
+        "message": "Przywróć zarchiwizowaną grupę",
         "description": "Unarchive"
     },
     "groupIsArchived": {
@@ -976,7 +976,7 @@
         "description": "Group not found"
     },
     "unloadGroup": {
-        "message": "Zwolnij grupę (przeciwieństwo wczytania)",
+        "message": "Ukryj karty grupy",
         "description": "Unload the group"
     },
     "tabsInThisWindowWereHidden": {
@@ -984,7 +984,7 @@
         "description": "Tabs in this window were hidden. You can find them at the bottom of the popup window of the addon."
     },
     "searchOrGoToActive": {
-        "message": "Znajdź lub strzałka w prawo aby wybrać aktywną kartę/grupę",
+        "message": "Wyszukaj i użyj strzałek aby wybrać i uaktywnić kartę/grupę",
         "description": "Search or right arrow to focus on active tab/group"
     },
     "thisGroupIsMain": {
