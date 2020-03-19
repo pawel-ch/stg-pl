@@ -120,7 +120,7 @@
         "description": "Restore Simple Tab Groups"
     },
     "importAddonSettingsDescription": {
-        "message": "Załaduj plik kopii zapasowej zawierający grupy kart, które chcesz przywrócić.",
+        "message": "Wczytaj plik kopii zapasowej zawierający grupy kart, które chcesz przywrócić.",
         "description": "Load a backup file containing the tab groups you want to restore."
     },
     "importAddonSettingsButton": {
@@ -132,7 +132,7 @@
         "description": "Restore Quicksaver's \"Tab Groups\""
     },
     "importSettingsOldTabGroupsAddonDescription": {
-        "message": "Załaduj plik kopii zapasowej",
+        "message": "Wczytaj plik kopii zapasowej",
         "description": "Load a backup file old \"Tab Groups\" addon."
     },
     "openGroupAfterChange": {
@@ -246,7 +246,7 @@
         "description": "Icon color"
     },
     "selectUserGroupIcon": {
-        "message": "Załaduj ikonę",
+        "message": "Wczytaj ikonę",
         "description": "Load icon"
     },
     "selectUserGroupIconWarnText": {
@@ -262,7 +262,7 @@
         "description": "Catch and move tabs with containers to this group"
     },
     "regexpForTabsTitle": {
-        "message": "Szukaj kart za pomocą wyrażenia regularnego",
+        "message": "Dopasuj karty za pomocą wyrażenia regularnego",
         "description": "Regular expressions for catch tabs"
     },
     "regexpForTabsPlaceholder": {
@@ -302,39 +302,39 @@
         "description": "Select group"
     },
     "hotkeyActionTitleLoadNextGroup": {
-        "message": "Załaduj następną grupę",
+        "message": "Wczytaj następną grupę",
         "description": "Load next group"
     },
     "hotkeyActionTitleLoadPrevGroup": {
-        "message": "Załaduj poprzednią grupę",
+        "message": "Wczytaj poprzednią grupę",
         "description": "Load previous group"
     },
     "hotkeyActionTitleLoadNextUnloadedGroup": {
-        "message": "Załaduj kolejną niewczytaną grupę",
+        "message": "Wczytaj kolejną ukrytą grupę",
         "description": "Load next unloaded group"
     },
     "hotkeyActionTitleLoadPrevUnloadedGroup": {
-        "message": "Załaduj poprzednią niewczytaną grupę",
+        "message": "Wczytaj poprzednią ukrytą grupę",
         "description": "Load previous unloaded group"
     },
     "hotkeyActionTitleLoadHistoryNextGroup": {
-        "message": "Załaduj następną grupę z historii",
+        "message": "Wczytaj następną grupę z historii",
         "description": "Load next group from history"
     },
     "hotkeyActionTitleLoadHistoryPrevGroup": {
-        "message": "Załaduj poprzednią grupę z historii",
+        "message": "Wczytaj poprzednią grupę z historii",
         "description": "Load previous group from history"
     },
     "hotkeyActionTitleLoadFirstGroup": {
-        "message": "Załaduj pierwszą grupę",
+        "message": "Wczytaj pierwszą grupę",
         "description": "Load first group"
     },
     "hotkeyActionTitleLoadLastGroup": {
-        "message": "Załaduj ostatnią grupę",
+        "message": "Wczytaj ostatnią grupę",
         "description": "Load last group"
     },
     "hotkeyActionTitleLoadCustomGroup": {
-        "message": "Załaduj niestandardową grupę",
+        "message": "Wczytaj niestandardową grupę",
         "description": "Load custom group"
     },
     "hotkeyActionTitleAddNewGroup": {
@@ -614,10 +614,6 @@
     "showContextMenuOnLinks": {
         "message": "Pokaż menu kontekstowe na linkach",
         "description": "Show context menu on links"
-    },
-    "importBookmarkFolderAsNewGroup": {
-        "message": "Importuj folder zakładek jako nową grupę",
-        "description": "Import bookmark folder as new group"
     },
     "groupsCreatedCount": {
         "message": "Utworzono grupę $groupscount$",
@@ -986,5 +982,31 @@
     "tabsInThisWindowWereHidden": {
         "message": "Karty w tym oknie zostały ukryte. Możesz znaleźć je na dole wyskakującego okna rozszerzenia.",
         "description": "Tabs in this window were hidden. You can find them at the bottom of the popup window of the addon."
+    },
+    "searchOrGoToActive": {
+        "message": "Znajdź lub strzałka w prawo aby wybrać aktywną kartę/grupę",
+        "description": "Search or right arrow to focus on active tab/group"
+    },
+    "thisGroupIsMain": {
+        "message": "Ta grupa jest oznaczona jako główna",
+        "description": "This group is marked as main"
+    },
+    "setGroupAsMain": {
+        "message": "Ustaw tę grupę jako główną",
+        "description": "Set this group as main"
+    },
+    "thisGroupWasMain": {
+        "message": "Informacja\nTa grupa została oznaczona jako główna",
+        "description": "Notice\nThis group was marked as the main"
+    },
+    "moveToMainIfNotInCatchTabRules": {
+        "message": "Przenieś karty z tej grupy do grupy \"$grouptitle$\" jeśli nie pasują do żadnego z wyrażeń regularnych",
+        "description": "Move tabs from this group to the 'My main group' group if none of the regular expression rules matches",
+        "placeholders": {
+            "grouptitle": {
+                "content": "$1",
+                "example": "My main group"
+            }
+        }
     }
 }
